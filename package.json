@@ -11,7 +11,11 @@
     "lint": "eslint src --ext .ts",
     "lint:fix": "eslint src --ext .ts --fix",
     "start": "node build/server.js",
-    "build": "tsup src --out-dir build"
+    "build": "tsup src --out-dir build",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui --api 9527"
   },
   "keywords": [],
   "author": "",
@@ -28,6 +32,8 @@
     "@types/node": "20.12.2",
     "@typescript-eslint/eslint-plugin": "7.5.0",
     "@typescript-eslint/parser": "7.5.0",
+    "@vitest/coverage-v8": "1.4.0",
+    "@vitest/ui": "1.4.0",
     "eslint": "8.57.0",
     "eslint-config-google": "0.14.0",
     "eslint-config-prettier": "9.1.0",
@@ -36,6 +42,8 @@
     "prisma": "5.11.0",
     "tsup": "8.0.2",
     "tsx": "4.7.1",
-    "typescript": "4.9.3"
+    "typescript": "4.9.3",
+    "vite-tsconfig-paths": "4.3.2",
+    "vitest": "1.4.0"
   }
 }
