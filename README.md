@@ -43,7 +43,7 @@ STATELESS: Não armazendao em nenhuma estrutura de persistência de dados (banco
 
 Back-end: Quando vai criar o token ele usa uma PALAVRA-CHAVE (string)
 
-Palavra-chave: jsfiajasgasgoaigoai,oeaogkaeovkoakok
+Palavra-chave: jsfiajasgasgoaigoaioeaogkaeovkoakok
 
 token jwt -> header.payload.sign
 
