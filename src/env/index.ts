@@ -6,6 +6,7 @@ const NODE_ENV = ['dev', 'test', 'production'] as const
 
 const envSchema = z.object({
   NODE_ENV: z.enum(NODE_ENV).default('dev'),
+  JWT_SECRET: z.string(),
   PORT: z.coerce.number().default(3333),
 })
 
